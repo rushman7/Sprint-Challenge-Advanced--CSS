@@ -15,6 +15,11 @@ nav div {
   margin: 0 auto 1.3rem auto;
   font-size: 2rem;
 }
+@media (max-width: 600px) {
+  nav div {
+    width: 80%;
+  }
+}
 nav div a {
   text-decoration: none;
   color: black;
